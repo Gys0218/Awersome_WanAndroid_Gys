@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_wan_android"
+            android:title="@string/action_Appname" />
+        <item
+            android:id="@+id/menu_collect"
+            android:icon="@drawable/ic_btn_love"
+            android:title="@string/collect" />
+        <item
+            android:id="@+id/menu_setting"
+            android:icon="@drawable/ic_nav_setting"
+            android:title="@string/set" />
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/respect" />
+
+        <item
+            android:id="@+id/edit"
+            android:icon="@drawable/ic_logout"
+            android:visible="false"
+            android:title="@string/edit"></item>
+    </group>
+
+
+</menu>

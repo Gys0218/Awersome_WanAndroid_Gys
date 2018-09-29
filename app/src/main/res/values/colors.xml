@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="hole_bottem_select">#F39C12</color>
+    <color name="hole_bottm_no">#CFCFCF</color>
+    <color name="white">#ffffff</color>
+    <color name="text_color">#dfd8d8</color>
+    <color name="grey_search">#FF999999</color>
+    <color name="light_white">#f4f0f0</color>
+    <color name="shallow_green">#FF36BC9B</color>
+</resources>
