@@ -19,7 +19,7 @@ class HomeAdapter extends BaseQuickAdapter<Datas,BaseViewHolder> {
     protected void convert(BaseViewHolder helper, Datas item) {
         helper.setText(R.id.author,item.getAuthor());
         helper.setText(R.id.chapterName,item.getSuperChapterName()+"/"+item.getChapterName());
-        helper.setText(R.id.desc,item.getDesc());
+        helper.setText(R.id.desc,item.getTitle());
         helper.setText(R.id.niceDate,item.getNiceDate());
 
 

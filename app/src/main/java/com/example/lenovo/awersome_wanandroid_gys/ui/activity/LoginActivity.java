@@ -120,6 +120,13 @@ public class LoginActivity extends BaseActivity implements HomesContract.View, V
         login_or_tv = (TextView) findViewById(R.id.login_or_tv);
         login_register_btn = (Button) findViewById(R.id.login_register_btn);
 
+        login_toolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
         login_btn.setOnClickListener(this);
         login_register_btn.setOnClickListener(this);
     }

@@ -51,6 +51,13 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         reg_repsw = (EditText) findViewById(R.id.reg_repsw);
         register_btn = (Button) findViewById(R.id.register_btn);
 
+        common_toolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
         register_btn.setOnClickListener(this);
     }
 
